@@ -58,7 +58,7 @@ func (t Theme) Color(themeColorName fyne.ThemeColorName, themeVariant fyne.Theme
 	case theme.ColorNameForeground:
 		return palette.Fg0
 	case theme.ColorNameHover:
-		return palette.Fg4 // 0x0f
+		return palette.Bg1
 	case theme.ColorNameHeaderBackground:
 		return palette.Bg1 // 0xf9
 	case theme.ColorNameHyperlink:
@@ -82,7 +82,7 @@ func (t Theme) Color(themeColorName fyne.ThemeColorName, themeVariant fyne.Theme
 	case theme.ColorNameSelection:
 		return palette.Orange2
 	case theme.ColorNameSeparator:
-		return palette.Gray // 0xe3
+		return palette.Bg3
 	case theme.ColorNameShadow:
 		return color.NRGBA{A: 0x66}
 	case theme.ColorNameSuccess:
